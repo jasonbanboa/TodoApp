@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: rgb(204, 228, 248);
+}
+
+body {
+  padding-top: 10px;
+}
+
+#body {
+  height: 100vh;
+  width: 100vw;   
+  
+}
+
+.App {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 500px;
+  height: 700px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button {
+  border-radius: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  height: 34px;
+  padding: 3px;
+  border: 2px solid black;
+}
+
+#task-input {
+  width: 91.6%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 3px;
+  margin-bottom: 10px;
+  border-color: black;
+  border-right: none;
+}
+
+#task-input:focus {
+  outline: none;
+}
+
+
+#submit {
+  color: #0b57d0;
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 3px;
+  height: 34px;
+}
+
+#submit:hover {
+  color: white;
+  background-color: #0b57d0;
+}
+
+.options:nth-child(1) {
+  margin-right: 0.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
+.edit {
+  color: #0da9ba;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.edit:hover {
+  color: white;
+  background-color: #0da9ba;
+}
+
+.delete {
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  color: white;
+  background-color: red;
+}
+
+.complete {
+  color: green;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.complete:hover {
+  color: white;
+  background-color: green;
+}
+
+.unfinish {
+  color: orangered;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.unfinish:hover {
+  color: white;
+  background-color: orangered;
+}
+
